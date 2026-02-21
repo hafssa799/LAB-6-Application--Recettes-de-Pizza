@@ -58,8 +58,6 @@ Organisation du projet en plusieurs packages pour bien séparer les rôles :
 
 -Affichage des informations complètes d’une pizza sélectionnée : Image-Nom-Prix-durée-Ingrédients-Description-Étapes.
 
-![](https://github.com/user-attachments/assets/320e8c24-a3c7-4607-8e7a-a9b32f3e2308)
-
 ![](https://github.com/user-attachments/assets/75e8d802-5a59-4523-be01-bc65fde911ee)
 
 
