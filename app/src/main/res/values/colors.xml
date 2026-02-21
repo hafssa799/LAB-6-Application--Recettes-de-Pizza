@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#102A43</color> <!-- Deep Navy -->
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary">#102A43</color>
+    <color name="colorPrimaryDark">#001329</color>
+    <color name="colorAccent">#F09605</color> <!-- Amber Accent -->
+    <color name="colorBackground">#F0F4F8</color> <!-- Light Slate Blue Gray -->
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorTextPrimary">#102A43</color>
+    <color name="colorTextSecondary">#486581</color>
+    <color name="colorSearchBg">#E1E8ED</color>
+</resources>
