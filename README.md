@@ -1,6 +1,5 @@
 # LAB-6-Pizza Recipes Android App
 
- Pizza Recipes – Application Android
  
 # Objectif :
 
@@ -18,128 +17,62 @@ classes : modèle de données
 
 service : gestion des données
 
-📸 Capture : structure du projet
+![](https://github.com/user-attachments/assets/0c9c6345-7f15-4ee2-9b9e-6d375d5843d1)
 
-🧩 Étape 2 — Écran Splash
+ # Étape 2 — Écran Splash
 
 Un écran de démarrage affichant le logo de l’application.
 
-Layout simple
+# Layout simple
 
-Image centrée
+# Image centrée
 
-📄 Fichier : activity_splash.xml 📸 Capture : splash.png
+![](https://github.com/user-attachments/assets/bd445bb1-ba64-45ae-a5d7-a0b26d4f45ec)
 
-🍕 Étape 3 — Classe Produit
+ # Étape 3 — Classe Produit
 
 Classe modèle représentant une pizza.
 
-Contient :
+Contient :nom,prix,durée,image,ingrédients,description,étapes.
 
-nom
+ # Étape 4 — Service ProduitService
 
-prix
+-Service qui simule une base de données en mémoire.
+-Utilisation du Singleton
+-Liste de pizzas
+-Méthode seed() pour ajouter les pizzas
 
-durée
+ # Étape 5 — Liste des pizzas
 
-image
+-Affichage de toutes les pizzas dans une ListView.
 
-ingrédients
+-Utilisation d’un BaseAdapter
 
-description
+-Chaque pizza est affichée dans une CardView
 
-étapes
+![](https://github.com/user-attachments/assets/d6c3a978-2eef-4fd2-9a1d-94b7512d28b9)
+ 
+ # Étape 6 — Détail d’une pizza
 
-📄 Fichier : Produit.java
+-Affichage des informations complètes d’une pizza sélectionnée :
+Image-Nom-Prix-durée-Ingrédients-Description-Étapes.
 
-🗂️ Étape 4 — Service ProduitService
+![](https://github.com/user-attachments/assets/320e8c24-a3c7-4607-8e7a-a9b32f3e2308)
 
-Service qui simule une base de données en mémoire.
+![](https://github.com/user-attachments/assets/75e8d802-5a59-4523-be01-bc65fde911ee)
 
-Utilisation du Singleton
 
-Liste de pizzas
+ # Étape 7 — Navigation
 
-Méthode seed() pour ajouter les pizzas
+-Splash → Liste des pizzas
+-Clic sur une pizza → Détail
+-Passage de l’ID via Intent
 
-📄 Fichier : ProduitService.java 📸 Capture : produit_service.png
+ # Technologies utilisées
 
-📋 Étape 5 — Liste des pizzas
+-Java
+-Android Studio
+-XML
 
-Affichage de toutes les pizzas dans une ListView.
 
-Utilisation d’un BaseAdapter
 
-Chaque pizza est affichée dans une CardView
-
-📄 Fichiers :
-
-PizzaAdapter.java
-
-row_pizza.xml
-
-📸 Capture : list_pizza.png
-
-🔍 Étape 6 — Détail d’une pizza
-
-Affichage des informations complètes d’une pizza sélectionnée.
-
-Image
-
-Nom
-
-Prix et durée
-
-Ingrédients
-
-Description
-
-Étapes
-
-📄 Fichiers :
-
-PizzaDetailActivity.java
-
-activity_pizza_detail.xml
-
-📸 Capture : detail_pizza.png
-
-🔗 Étape 7 — Navigation
-
-Splash → Liste des pizzas
-
-Clic sur une pizza → Détail
-
-Passage de l’ID via Intent
-
-🛠️ Technologies utilisées
-
-Java
-
-Android Studio
-
-XML
-
-ListView
-
-CardView
-
-🚀 Exécution du projet
-
-Ouvrir le projet dans Android Studio
-
-Synchroniser Gradle
-
-Lancer sur émulateur ou téléphone
-
-📸 Dossier des captures
-
-Créer un dossier screenshots/ à la racine du projet et ajouter :
-
-splash.png
-
-list_pizza.png
-
-detail_pizza.png
-
-produit_service.png
