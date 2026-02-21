@@ -61,21 +61,5 @@ Organisation du projet en plusieurs packages pour bien séparer les rôles :
 ![](https://github.com/user-attachments/assets/75e8d802-5a59-4523-be01-bc65fde911ee)
 
 
- # Étape 7 — Navigation
-
--Splash → Liste des pizzas
-
--Clic sur une pizza → Détail
-
--Passage de l’ID via Intent
-
- # Technologies utilisées
-
--Java
-
--Android Studio
-
--XML
-
 
 
