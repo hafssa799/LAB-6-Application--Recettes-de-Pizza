@@ -1,4 +1,4 @@
-# LAB-6-Pizza Recipes Android App
+# LAB 6 : Pizza Recipes Android App
 
  
 # Objectif :
